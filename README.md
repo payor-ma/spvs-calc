@@ -26,6 +26,9 @@ Use argument 'h' or 'help' for extended usage options.
 
 
 Usage Examples:
-- python3 ./spvs-calc.py inv 12                 -- Search for an inverse of 12 with default depth of 2
-- python3 ./spvs-calc.py mult 1..5 6.2          -- Multiply 1..5 and 6.2
-- python3 ./spvs-calc.py 7.23 + 12.34..5        -- Infix add 7.23 and 12.34..5 
+- python3 ./spvs-calc.py inv 12
+  - Search for an inverse of 12 with default depth of 2
+- python3 ./spvs-calc.py mult 1..5 6.2
+  - Multiply 1..5 and 6.2
+- python3 ./spvs-calc.py 7.23 + 12.34..5 
+  - Infix add 7.23 and 12.34..5 
