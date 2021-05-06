@@ -36,3 +36,12 @@ def sexListToSex(sexList):
 
 )
 
+# not designed to take unsanitised, only for stuff that's gone thru check before
+def stripZeroes(sexStr):
+    sexList = sexStr.split(".")
+    for i in range(len(sexList)-1,0,-1):
+        if sexList[i] == "0":
+            sexList.pop(i) 
+        else:
+            break
+    return sexListToSex(sexList)
