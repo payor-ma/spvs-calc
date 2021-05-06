@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from sanitsation import *
+from _sanitsation import *
 
 # converts a sexagesimal string into an integer
 def toDec(sexStr):

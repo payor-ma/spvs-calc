@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import sys
-from constants import *
+from _constants import *
 
 def checkSexDigit(sexStrDigit):
     try:

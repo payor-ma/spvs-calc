@@ -1,7 +1,5 @@
 # spvs-calc
-python (3) SPVS caclulator script
-
-SPVS (sexagesimal) calculator script.  Currently supports multiply, add, subtract.
+SPVS (sexagesimal) calculator script.  Written for python3.  Currently supports multiply, add, subtract.
 Usage:
 	add <a> <b>
 	sub <a> <b>

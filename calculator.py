@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
-from conversions import *
+from _conversions import *
+from _strings import *
 
 #robust to multiple zero formats, see help statement
 #prints out using zero to be unambiguous
@@ -12,17 +13,6 @@ from conversions import *
 # subtract
 # invert / divide ??
 # factorise
-
-PATT_HELP = ("-h", "h", "-H", "H", "HELP", "help", "Help", "-help", "--help")
-PATT_MULT = ("mult", "Mult", "multiply", "Multiply", "m", "M", "-m", "-M")
-PATT_ADD =  ("+", "add", "Add", "plus", "Plus", "a", "A", "-a", "-A")
-PATT_SUB = ("-", "sub", "Sub", "subtract", "Subtract", "s", "S", "-s", "-S")
-
-HELP_GENERAL = "SPVS (sexagesimal) calculator script.  Currently supports multiply, add, subtract.\nUsage:\n\tadd <a> <b>\n\tsub <a> <b>\n\tmult <a> <b>\nInfix is also supported with \'+\', \'-\' and \'x\'.\nNote that for infix multiplication, the letter \'x\' must be used, as \'*\' is a special character.\nUse argument \'h\' or \'help\' for extended usage options."
-HELP_MULT = "Mul"
-HELP_ADD = "Help for add"
-HELP_SUB = "Help for subtract"
-HELP_EXTENDED = HELP_GENERAL[:-55] + "\n\nAccepted commands for prefix are as follows.\nMultiply:\t" + ",".join(PATT_MULT) + "\nAdd:\t\t" + ",".join(PATT_ADD) + "\nSubtract:\t" + ",".join(PATT_SUB) + "\nAccepted infix symbols are \'+\' for add, \'-\' for subtract and \'x\' (as in the letter) for multiply."
 
 def help(printString):
     print(printString)
