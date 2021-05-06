@@ -2,6 +2,7 @@
 SPVS (sexagesimal) calculator script.  Written for python3.  Currently supports multiply, add, subtract.
 
 Usage:
+<<<<<<< HEAD
 - python3 ./calculator.py \<options\> \<command\>
 
 Supported Options:
@@ -13,6 +14,15 @@ Supported Commands:
 - sub \<a\> \<b\> &emsp; Subtraction
 - mult \<a\> \<b\> &emsp; Multiplication
 - inv \<a\> \<digitDepth\> &emsp; Brute force inverse search to specified digit depth
+=======
+- python3 ./calculator.py \<command\>
+
+
+Supported Commands:
+- add \<a\> \<b\>
+- sub \<a\> \<b\>
+- mult \<a\> \<b\>
+>>>>>>> 804c604707247435e88526c99c39762a8701a853
 
 
 Infix is also supported with '+', '-' and 'x', i.e
