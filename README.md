@@ -2,7 +2,7 @@
 SPVS (sexagesimal) calculator script.  Written for python3.  Currently supports multiply, add, subtract.
 
 Usage:
-- python3 ./calculator.py \<options\> \<command\>
+- python3 ./spvs-calc.py \<options\> \<command\>
 
 Supported Options:
 - \-c OR \--cull &emsp; Culls trailing zeroes (real SPVS style)
